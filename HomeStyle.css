@@ -1,0 +1,40 @@
+.center {
+	text-align: center;
+}
+
+.BarterDB {
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.SignUpBtn {
+	font-weight: bold;
+	position: absolute; /* Locks button to top right */
+    top: 20px; /* Postitions button */
+	right: 20px; /* Postitions button */
+	padding: 10px 20px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border-radius: 115px; /* Controls curve on button */
+	border: 3px solid black;
+}
+
+.menuBtn {
+	font-weight: bold;
+	position: absolute; /* Locks button to top right */
+    top: 20px; /* Postitions button */
+	left: 20px; /* Postitions button */
+	padding: 10px 20px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border-radius: 115px; /* Controls curve on button */
+	border: 3px solid black;
+}
+
+body {
+   background-color: powderblue;
+}
