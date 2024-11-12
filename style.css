@@ -1,3 +1,11 @@
+:root {
+    --black: #000000ff;
+    --carmine: #931621ff;
+    --paynes-gray: #5c6d70ff;
+    --white: #ffffffff;
+    --ash-gray: #b6c9bbff;
+}
+
 body {
     background: powderblue;
 }
@@ -6,6 +14,7 @@ body {
     width: 300px;
     padding: 30px 25px;
     background: white;
+    background-color: rgb(77, 108, 175);
 }
 .trade {
 	margin: 50px auto;
@@ -21,8 +30,9 @@ body {
     height: 25px;
     width: calc(100% - 23px);
 }
+
 h1.login-title {
-    color: #666;
+    color: black;
     margin: 0px auto 25px;
     font-size: 25px;
     font-weight: 300;
@@ -41,7 +51,7 @@ h1.login-title {
     outline: none;
 }
 .login-button {
-    color: #fff;
+    color: white;
     background: #55a1ff;
     border: 0;
     outline: 0;
