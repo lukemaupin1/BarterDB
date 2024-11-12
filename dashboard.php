@@ -43,6 +43,8 @@ include("auth_session.php");
             <input type="text" class="loginInput" name="offer" placeholder="Item For Trade"/>
             <input type="submit" value="Post" name="submit" class="loginButton"/>
         </form>
+
+        <a href="menuPage.php" class="menuBtn"> Menu </a>
     </main>
 
     <script src="main.js"></script>
